@@ -46,12 +46,12 @@ include_once("../estructura/cabecera.php");
                                     <form class="registerForm" id="eje" name="eje" method="POST" action="accion.php" >
                                           <div class="form-group">
                                               <label>Username</label>
-                                              <input type="text" class="form-control" name="username" id="username" />
+                                              <input type="text" class="form-control" name="login[username]" id="username" />
                                           </div>
 
                                           <div class="form-group">
                                               <label>pass</label>
-                                              <input type="text" class="form-control" name="email"  id="email"/>
+                                              <input type="text" class="form-control" name="login[password]"  id="pass"/>
                                           </div></div>
                                           <div class="modal-footer">
                                                <input id="btn_eje"  name="btn_eje" type="submit" value="Enviar" class="btn btn-dark">

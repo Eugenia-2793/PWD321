@@ -3,35 +3,17 @@
 class control_eje6{
 
     public function deporte($datos){
-    $texto = "<li> ..... deportes </li>";
+    $texto = "";
 
-   
-     
-    //$deportes = $datos['deportes'];
-    
-    /*if($deportes == 0){
-        $texto= ". No raliza $deportes deportes"; 
-    }elseif($deportes == 1){
-        $texto= ". Realiza $deportes deporte";
-    }else{
-        $texto= ". Realiza $deportes deportes"; 
-    } */
+    $deportes = $datos["deporte"];
+     //verificacion de deporte
+            // realizando una sumatoria
+            $sumatoria = -1;
+            for($i=0;$i < count($deportes);$i++){
+                $sumatoria = $sumatoria + 1;
+            }
 
-
-    /*    $contar= 0;
-    foreach($datos as $id){
-        if($id == "d" ){ 
-            $contar = $contar +1; }
-    }
-
-    if($contar == 0){
-        $texto= ". No raliza $contar deportes"; 
-    }elseif($contar == 1){
-        $texto= ". Realiza $contar deporte";
-    }else{
-        $texto= ". Realiza $contar deportes"; 
-    }    
- */
+    $texto = "<li>  Realiza $sumatoria deportes ..</li>";
     return $texto;
 
     }//function 

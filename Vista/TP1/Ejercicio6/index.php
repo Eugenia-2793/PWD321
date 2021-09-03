@@ -66,23 +66,44 @@ include_once("../estructura/cabecera.php");
                     <div class="invalid-feedback"> Seleccionar una opcion </div> <br/> 
 
                     <!--------AGREGADO DEL 6  futbol, basket, tenis, voley------------->
-                    <br/>
-                    <label for="dep" class="">Deportes</label>
-                    <br/>
-                    <input type="checkbox" name="deportes" id="futbol" value="futbol" > 
-                    <label for="1">futbol</label><br>
-
-                    <input type="checkbox" name="deportes" id="basket" value="basket">
-                    <label for="2">basket</label><br>
-
-                    <input type="checkbox" name="deportes" id="tenis" value="tenis">
-                    <label for="3">tenis</label><br>
-
-                    <input type="checkbox" name="deportes" id="voley" value="voley">
-                    <label for="4">voley</label><br>
+                   
+                    <div >Marque que deporte realiza: </div>
+                      
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="deporte" name="deporte[]" value="futbol">
+                                <label class="form-check-label" for="deporte">
+                                    Futbol
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="deporte" name="deporte[]" value="basquet">
+                                <label class="form-check-label" for="deporte">
+                                    Basquet
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="deporte" name="deporte[]" value="tennis">
+                                <label class="form-check-label" for="deporte">
+                                    Tennis
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="deporte" name="deporte[]" value="voley">
+                                <label class="form-check-label" for="deporte">
+                                    Voley
+                                </label>
+                            </div>
+                            <div class="form-check" hidden>
+                                <input class="form-check-input" type="checkbox" id="deporte" name="deporte[]" value="nada" checked>
+                                <label class="form-check-label" for="deporte">
+                                    Voley
+                                </label>
+                            </div>
+                   
 
                     <!--BOTONES--->
                     <br/>
+                    
                     <input id="btn_eje"  name="btn_eje" type="submit" value="Enviar" class="btn btn-dark">
                     <input type="reset" class="btn btn-dark">
                     <!------------>

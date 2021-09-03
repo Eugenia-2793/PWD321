@@ -3,24 +3,34 @@
 class verificaPass{
 
 
-    public function existe($datos, $arregloUs){
+    public function existe($datos){
 
-        //Array ( [1] => Array ( [user] => Eugenia [pass] => Hola1234 )
-        //        [2] => Array ( [user] => Garcia  [pass] => Chau4321 ) 
-       
-        $text= "Sin registro";
-         /*$usuario = $datos['username'];
-        $pass =    $datos['email'];
+        $info = $datos["login"];
+        
+         print_r($info);
 
-        foreach ( $arregloUs as $clave => $valor ) {
+        $user = $info["username"];
+        $pass = $info["password"];
+        
+        
+        // datos guardados
+        $array_1 = ["usuario" => "eugeniaG", "clave" => "Hola1234"];
+        $array_2 = ["usuario" => "GarciaE", "clave" => "Chau4321"];
+        $array_3 = ["usuario" => "homero", "clave" => "1lum1nado5"];
+        $array = [$array_1,$array_2,$array_3];
 
-            if($clave == $usuario){
-                if($pass == $valor){
-                    $text = "bienvenido";
-                }//if
-            }//if
-         }//foreach*/
-         return $text;
+        for($i = 0; $i <(count($array));$i++){
+            if($array[$i]["usuario"] == $user && $array[$i]["clave"] == $pass){
+                $texto = "<p>Sesion iniciada.</p>";
+            }
+        }
+
+        $texto = "<p>Tus datos no son los correctos.</p>";
+
+        return $texto;
+
+
+
     }//function
 
 

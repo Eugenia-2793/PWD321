@@ -1,26 +1,18 @@
-<?php 
-$Titulo = "TP 2 Ejercicio 3"; 
+<?php
+$Tiulo = "Ejercicio 1";
 include_once("../estructura/cabecera.php");
 
-$datos = data_submitted();
-$obj3 = new verificaPass();
-
-//"clave1"=>"valor1","clave2"=>"valor2"
-$arregloUs= array();
-$arregloUs['1']=['user' => 'Eugenia', 'pass' => 'Hola1234'];
-$arregloUs['2']=['user' => 'Garcia',  'pass' => 'Chau4321'];
-
-
-$respuesta = $obj3->existe($datos, $arregloUs);
-
-
+$datos= data_submitted();
+$obj1= new control_subir1();
+$respuesta = $obj1->verInformacion($datos);
 ?>
+
 
 <div class="row">
    <div class="col-md-12">
        <div class="card">
            <div class="card-header">       
-             Trabajo Practico 1
+            La Pelicula Introducida estructura
              </div>
                <div class="card-body">
                       <!--volver------------------->
@@ -31,10 +23,24 @@ $respuesta = $obj3->existe($datos, $arregloUs);
                         </a>
                         <!--volver------------------->
 
-                    <p class="card-text"> <?php echo " <br/> <p> Resultado: $respuesta </p> "; ?> </p>
+                    
                      
+                      <div class="alert alert-info" role="alert">
+                         <h4> Datos de archivo: </h4>  
+                          <?php echo "<p> $respuesta </p>"; ?>
+                     </div>
+
+
                 </div>
              </div>
         </div>
     </div>
+
+
+
+
+
+<?php
+include_once("../estructura/pie.php");
+?>
 
