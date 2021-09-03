@@ -25,12 +25,12 @@ include_once("../estructura/cabecera.php");
 
                    
 
-                    <iframe id="inlineFrameExample"
+                    <!--<iframe id="inlineFrameExample"
                             title="juego"
                             width="400"
                             height="400"
                             src="http://www.staggeringbeauty.com">
-                        </iframe>
+                        </iframe>-->
 
               </div>
           </div>

@@ -1,9 +1,8 @@
 <?php
 
-$GLOBALS['ROOT'] =$_SERVER['DOCUMENT_ROOT'] ."/entrega05-06/";
+$GLOBALS['ROOT'] =$_SERVER['DOCUMENT_ROOT'] ."/PWD321/";
 
 include_once("../../utiles/funciones.php");
-
 
 
 ?>

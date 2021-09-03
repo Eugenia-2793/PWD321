@@ -19,18 +19,12 @@
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Trabajo P2</a>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="../tp2_1/index.php">Ejercicio 1</a></li>
-      <li><a class="dropdown-item" href="../tp2_1/index.php">Ejercicio 2</a></li>
-      <li><a class="dropdown-item" href="../tp2_3/index.php">Ejercicio 3</a></li>
-      <li><a class="dropdown-item" href="#">Ejercicio 4</a></li>
-      <li><a class="dropdown-item" href="#"> Ejercicio 5</a></li>
-      <li><a class="dropdown-item" href="#"> Ejercicio 6</a></li>
-      <li><a class="dropdown-item" href="#"> Ejercicio 7</a></li>
+      <li><a class="dropdown-item" href="../TP2Ejercicio1">Ejercicio 1</a></li>
+      <li><a class="dropdown-item" href="../TP2Ejercicio1">Ejercicio 2</a></li>
+      <li><a class="dropdown-item" href="../TP2Ejercicio3">Ejercicio 3</a></li>
+      <li><a class="dropdown-item" href="../TP2Ejercicio4">Ejercicio 4</a></li>
     </ul>
   </li>
-
- 
 </ul>
-
 
 </div>
