@@ -28,7 +28,7 @@ $respuesta = $obj2->verInformacion($datos);
                       <!---<div class="alert alert-info" role="alert">--->
                          <h4> Datos de archivo: </h4>  
                           <textarea rows="10" cols="100">
-                          <?php echo "<p> $respuesta </p>"; ?>
+                          <?php echo " $respuesta "; ?>
                           </textarea>
                     <!--- </div> -->
 

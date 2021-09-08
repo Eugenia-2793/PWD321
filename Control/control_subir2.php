@@ -18,7 +18,8 @@
                     $content = fread($file, filesize($filename));
                     fclose($file);
                 } else {
-                    //echo "El archivo debe ser un *.txt";
+                    $content = "El archivo debe ser un *.txt";
+                    return $content;
                     $error = 1;
                 }
 

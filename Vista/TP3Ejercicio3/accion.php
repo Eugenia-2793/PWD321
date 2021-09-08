@@ -1,5 +1,5 @@
 <?php
-$Tiulo = "Ejercicio 1";
+$Tiulo = "Ejercicio 3";
 include_once("../estructura/cabecera.php");
 
 $datos= data_submitted();
@@ -26,8 +26,8 @@ $respuesta = $obj3->verInformacion($datos);
                     
                    
                       <div class="alert alert-info" role="alert">
-                         <h4> Datos de archivo: </h4>  
-                          <?php echo "<p> $respuesta </p>"; ?>
+                         <h4> VER: </h4>  
+                          <?php echo " $respuesta "; ?>
                      </div>
 
 
