@@ -12,7 +12,7 @@ $respuesta = $obj1->verInformacion($datos);
    <div class="col-md-12">
        <div class="card">
            <div class="card-header">       
-            La Pelicula Introducida estructura
+            Ver
              </div>
                <div class="card-body">
                       <!--volver------------------->

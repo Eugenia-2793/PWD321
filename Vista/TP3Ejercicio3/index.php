@@ -21,8 +21,8 @@ include_once("../estructura/cabecera.php");
                        <form  id="eje3" name="eje3" method="POST" action="accion.php" enctype="multipart/form-data">
                          <!------ICON PRUEBA--------->
                           
-                         <label for="archivo" class="form-label"> Adjuntar la imagen de película que se está cargando </label>
-                            <input type="file" accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain, application/pdf, image/" class="form-control input-group w-50" id="archivo" name="archivo" size="100" placeholder="Seleccionar archivo"required> 
+                         <label for="archivo" class="form-label"> <b> Adjuntar la imagen de película que se está cargando </b> </label>
+                            <input type="file" accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain, application/pdf, image/" class="form-control input-group w-50" id="archivo" name="archivo" size="100" placeholder="Seleccionar img"required> 
                                 <div class="invalid-feedback"> Ingresa tu archivo reina </div> <br/>
                         
  

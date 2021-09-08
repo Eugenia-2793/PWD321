@@ -19,9 +19,9 @@ include_once("../estructura/cabecera.php");
                        <form  id="eje2" name="eje2" method="POST" action="accion.php" enctype="multipart/form-data">
                          <!------ICON PRUEBA--------->
                           
-                         <label for="archivo" class="form-label">Subir archivo: txt (texto plano)</label>
+                         <label for="archivo" class="form-label"> <b> Subir archivo: txt (texto plano) </b></label>
                             <input type="file" accept="" class="form-control input-group w-50" id="archivo" name="archivo" size="100" placeholder="Seleccionar archivo"required> 
-                                <div class="invalid-feedback"> Ingresa tu archivo reina </div> <br/>
+                                <div class="invalid-feedback">  Ingresa tu archivo reina </div> <br/>
                         
  
                           <!-------------boton------------>

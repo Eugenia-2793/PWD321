@@ -21,9 +21,9 @@ include_once("../estructura/cabecera.php");
                        <form  id="eje1" name="eje1" method="POST" action="accion.php" enctype="multipart/form-data">
                          <!------ICON PRUEBA--------->
                           
-                         <label for="archivo" class="form-label">Subir archivo: El archivo debe ser .doc o .pdf y no superar los 2 MB</label>
+                         <label for="archivo" class="form-label"> <b> Subir archivo: El archivo debe ser .doc o .pdf y no superar los 2 MB </b></label>
                             <input type="file" accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain, application/pdf, image/" class="form-control input-group w-50" id="archivo" name="archivo" size="100" placeholder="Seleccionar archivo"required> 
-                                <div class="invalid-feedback"> Ingresa tu archivo reina </div> <br/>
+                                <div class="invalid-feedback">  Ingresa tu archivo reina > </div> <br/>
                         
  
                           <!-------------boton------------>
