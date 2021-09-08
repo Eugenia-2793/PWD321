@@ -12,7 +12,7 @@ $respuesta = $obj1->verInformacion($datos);
    <div class="col-md-12">
        <div class="card">
            <div class="card-header">       
-            Ver
+           Trabajo Practico 3
              </div>
                <div class="card-body">
                       <!--volver------------------->

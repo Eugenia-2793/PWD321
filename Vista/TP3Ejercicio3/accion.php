@@ -3,8 +3,8 @@ $Tiulo = "Ejercicio 1";
 include_once("../estructura/cabecera.php");
 
 $datos= data_submitted();
-//$obj1= new control_subir1();
-//$respuesta = $obj1->verInformacion($datos);
+$obj3= new control_subir3();
+$respuesta = $obj3->verInformacion($datos);
 ?>
 
 
@@ -12,7 +12,7 @@ $datos= data_submitted();
    <div class="col-md-12">
        <div class="card">
            <div class="card-header">       
-         Ver
+           Trabajo Practico 3
              </div>
                <div class="card-body">
                       <!--volver------------------->

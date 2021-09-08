@@ -1,0 +1,31 @@
+- Preguntas a adelaida
+
+¿Como podrias definir, la necesidad ante la cual surgio andes? 
+¿los que participaron, fueron mas medico o informaticos?
+¿Sentis que tuvo un impacto en la gente, en cuanto a respuesta por parte del usuario?
+-uso, chequeo diario, sorpresa, negatividad
+¿Crees posible igualar un historial medico en lo virtual? (nosotras si, pero como responde un especialista ante la tecnologia)
+¿Fuera de andes, existe o existia alguna app que recomienden para un seguimientos/actualizacion/consulta de salud?
+¿Se podria considerar el uso de una app movil por parte del personal? (con una pagina web existente)
+¿Cual es la especilizacion menos actualizada a la tecnologia? 
+¿Nos podria mostrar ejemplos de historias clinicas o documentos a utilizar relacionados a la tematica de la web?
+
+- tp rafa responder preguntas generales
+Pagina: lingscars
+
+Tips para el trabajo practico.
+a-Describir el dominio
+b-Navegabilidad, soluciones ante fallas de integridad, calidad, seguridad etc
+c-presentar todo esos incisos en un informe y una presentacion power point?
+d-
+e-si se entrega tarde se quita un punto a la nota final.
+f-Ejemplo de arbol 23min
+g- proteccion de datos, integridad estandares (ver cuales son) ley de proteccion de datos -------------------------------------------------------
+h-usabilidad se separa de aspectos de calidad. Como afecta, que tengo que mirar
+i-29 usabilidad.
+h- acepto todo los terminos?? cosas sin explicacion /grises.
+j- enlaces confiables, no rotos.
+k-
+
+
+- PROGRAMACION WEB DINAMICA.
