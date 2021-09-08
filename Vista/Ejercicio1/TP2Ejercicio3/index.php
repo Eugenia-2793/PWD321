@@ -1,6 +1,6 @@
 <?php
 $Titulo= "Ejercicio 3";
-include_once("../../estructura/cabecera.php");
+include_once("../estructura/cabecera.php");
 ?>
 <!---------BODY------------->
 
@@ -74,5 +74,5 @@ include_once("../../estructura/cabecera.php");
 
 <!------FOOTER-------->
 <?php 
-include_once("../../estructura/pie.php");
+include_once("../estructura/pie.php");
 ?>
