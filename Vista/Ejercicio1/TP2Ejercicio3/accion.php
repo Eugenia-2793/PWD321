@@ -31,3 +31,6 @@ $respuesta = $obj3->existe($datos, $arregloUs);
         </div>
     </div>
 
+    <?php 
+include_once("../estructura/pie.php");
+?>
