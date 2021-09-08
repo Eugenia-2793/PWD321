@@ -6,7 +6,7 @@ class control_subir1{
       public function verInformacion ($datos){
 
          // Directorio establecido para enviar los archivos.
-         $dir = '../archivos/';
+         $dir = '../archivos';
 
          if ($_FILES['archivo']["error"] <= 0) {
              $error = 0;
@@ -29,7 +29,7 @@ class control_subir1{
                      }
                  else{
                      $rta = "El archivo ".$_FILES["archivo"]["name"]." se ha copiado con Éxito <br/>
-                         DESCARGUE EL ARCHIVO: <a href='../archivos/".$_FILES['archivo']['name']."'>Click aca</a> ";                       }
+                         DESCARGUE EL ARCHIVO: <a href='../archivos".$_FILES['archivo']['name']."'>Click aca</a> ";                       }
              } else {
                      $rta = "El archivo no se puede subir";
              }
