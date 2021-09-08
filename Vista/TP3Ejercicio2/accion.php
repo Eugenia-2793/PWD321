@@ -1,10 +1,10 @@
 <?php
-$Tiulo = "Ejercicio 1";
+$Tiulo = "Ejercicio 2";
 include_once("../estructura/cabecera.php");
 
 $datos= data_submitted();
-$obj1= new control_subir1();
-$respuesta = $obj1->verInformacion($datos);
+//$obj1= new control_subir1();
+//$respuesta = $obj1->verInformacion($datos);
 ?>
 
 

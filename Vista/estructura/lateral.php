@@ -33,9 +33,8 @@
     <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Trabajo P3</a>
     <ul class="dropdown-menu">
       <li><a class="dropdown-item" href="../TP3Ejercicio1">Ejercicio 1</a></li>
-<!--      <li><a class="dropdown-item" href="../TP3Ejercicio2">Ejercicio 2</a></li>
-          <li><a class="dropdown-item" href="../TP3Ejercicio3">Ejercicio 3</a></li>
--->
+      <li><a class="dropdown-item" href="../TP3Ejercicio2">Ejercicio 2</a></li>
+      <li><a class="dropdown-item" href="../TP3Ejercicio3">Ejercicio 3</a></li>
     </ul>
   </li> 
 </ul>

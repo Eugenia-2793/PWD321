@@ -3,8 +3,8 @@ $Tiulo = "Ejercicio 1";
 include_once("../estructura/cabecera.php");
 
 $datos= data_submitted();
-$obj1= new control_subir1();
-$respuesta = $obj1->verInformacion($datos);
+//$obj1= new control_subir1();
+//$respuesta = $obj1->verInformacion($datos);
 ?>
 
 
@@ -24,7 +24,7 @@ $respuesta = $obj1->verInformacion($datos);
                         <!--volver------------------->
 
                     
-                     
+                   
                       <div class="alert alert-info" role="alert">
                          <h4> Datos de archivo: </h4>  
                           <?php echo "<p> $respuesta </p>"; ?>

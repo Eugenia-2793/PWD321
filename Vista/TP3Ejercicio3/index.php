@@ -1,5 +1,5 @@
 <?php
-$Titulo= "Ejercicio 1";
+$Titulo= "Ejercicio 3";
 include_once("../estructura/cabecera.php");
 ?>
 
@@ -12,16 +12,16 @@ include_once("../estructura/cabecera.php");
              </div>
                <div class="card-body">
                   <h5 class="card-title">Enunciado </h5>
-                    <p class="card-text"> Crear un formulario HTML que permita subir un archivo. En el servidor se deberá 
-                        controlar, antes de guardar el archivo, que los tipos validos son .doc o pdf y además el tamaño 
-                        máximo permitido es de 2mb. En caso que se cumplan las condiciones mostrar un link al archivo 
-                        cargado, en caso contrario mostrar un mensaje indicando el problema. </p>
+                    <p class="card-text"> Ejercicio 3 – Agregue al formulario creado en el ejercicio 10 del práctico 2 un input file que les 
+                        permita adjuntar la imagen de película que se está cargando. Cuando se envía el formulario se 
+                        deberá guardar la imagen y luego mostrarla junto con la información cargada en el formulario.
+                        OBS: Recuerde chequear los permisos sobre el directorio donde se almacenarán los archivos  </p>
                      
                      
-                       <form  id="eje1" name="eje1" method="POST" action="accion.php" enctype="multipart/form-data">
+                       <form  id="eje3" name="eje3" method="POST" action="accion.php" enctype="multipart/form-data">
                          <!------ICON PRUEBA--------->
                           
-                         <label for="archivo" class="form-label">Subir archivo: El archivo debe ser .doc o .pdf y no superar los 2 MB</label>
+                         <label for="archivo" class="form-label"> Adjuntar la imagen de película que se está cargando </label>
                             <input type="file" accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain, application/pdf, image/" class="form-control input-group w-50" id="archivo" name="archivo" size="100" placeholder="Seleccionar archivo"required> 
                                 <div class="invalid-feedback"> Ingresa tu archivo reina </div> <br/>
                         

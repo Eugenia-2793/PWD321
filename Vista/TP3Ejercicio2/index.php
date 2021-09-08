@@ -12,17 +12,15 @@ include_once("../estructura/cabecera.php");
              </div>
                <div class="card-body">
                   <h5 class="card-title">Enunciado </h5>
-                    <p class="card-text"> Crear un formulario HTML que permita subir un archivo. En el servidor se deberá 
-                        controlar, antes de guardar el archivo, que los tipos validos son .doc o pdf y además el tamaño 
-                        máximo permitido es de 2mb. En caso que se cumplan las condiciones mostrar un link al archivo 
-                        cargado, en caso contrario mostrar un mensaje indicando el problema. </p>
-                     
-                     
-                       <form  id="eje1" name="eje1" method="POST" action="accion.php" enctype="multipart/form-data">
+                    <p class="card-text"> – Crear un formulario que permita subir un archivo. En el servidor se deberá controlar 
+                        que el tipo esperado sea txt (texto plano), si es correcto deberá abrir el archivo y mostrar su 
+                        contenido en un textarea.
+                        (OBS: Referencia a funciones para trabajar con archivos http://php.net/manual/en/ref.filesystem.php) 
+                       <form  id="eje2" name="eje2" method="POST" action="accion.php" enctype="multipart/form-data">
                          <!------ICON PRUEBA--------->
                           
-                         <label for="archivo" class="form-label">Subir archivo: El archivo debe ser .doc o .pdf y no superar los 2 MB</label>
-                            <input type="file" accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain, application/pdf, image/" class="form-control input-group w-50" id="archivo" name="archivo" size="100" placeholder="Seleccionar archivo"required> 
+                         <label for="archivo" class="form-label">Subir archivo: txt (texto plano)</label>
+                            <input type="file" accept="" class="form-control input-group w-50" id="archivo" name="archivo" size="100" placeholder="Seleccionar archivo"required> 
                                 <div class="invalid-feedback"> Ingresa tu archivo reina </div> <br/>
                         
  
